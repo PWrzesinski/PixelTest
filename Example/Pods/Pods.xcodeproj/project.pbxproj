@@ -1,10 +1,10 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 46;
+    objects = {
 
 /* Begin PBXBuildFile section */
 		11C09B6CC9C769E26DB1186447472387 /* FileCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF25BB919ED28AC7687837FB9CB3602 /* FileCoordinatorType.swift */; };
@@ -27,7 +27,7 @@
 		9959616CA60FF3E7BD8CE045E668BA6E /* UIView+PixelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3594283BE96F51362224CB9FAB9187FF /* UIView+PixelTest.swift */; };
 		ABCCC942611844D1E7A59893ABBD1B0A /* Pods-PixelTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 717111452F2BB3B4EAA2D4B049DC1507 /* Pods-PixelTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABE63305B71016B0437C6BA51F6F4779 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC018B5950F852BFC8837A7CFA781BCC /* Mode.swift */; };
-		B11725CC2237DBD100A5FE58 /* XCTestCase+PixelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11725C72237C02D00A5FE58 /* XCTestCase+PixelTest.swift */; };
+		B11725C82237C02D00A5FE58 /* XCTestCase+PixelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11725C72237C02D00A5FE58 /* XCTestCase+PixelTest.swift */; };
 		B13D668B2216A49300BF5EBE /* Imageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13D668A2216A49300BF5EBE /* Imageable.swift */; };
 		B13D668D2216A9B400BF5EBE /* PixelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13D668C2216A9B400BF5EBE /* PixelTest.swift */; };
 		C399168A69D803F74FF5C8D6E82D50A5 /* PixelTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF03B09E18FBAF785F05B1D42D00B573 /* PixelTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,20 +45,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1B10FA9E8801FE128732A9A4D41776A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A524AB4F4A3AE09827ADB059882D7895;
-			remoteInfo = PixelTest;
-		};
-		61BA30D781E8FCB61B6D5FE5D13CC1EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A524AB4F4A3AE09827ADB059882D7895;
-			remoteInfo = PixelTest;
-		};
+        1B10FA9E8801FE128732A9A4D41776A7 /* PBXContainerItemProxy */ = {
+            isa = PBXContainerItemProxy;
+            containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+            proxyType = 1;
+            remoteGlobalIDString = A524AB4F4A3AE09827ADB059882D7895;
+            remoteInfo = PixelTest;
+        };
+        61BA30D781E8FCB61B6D5FE5D13CC1EA /* PBXContainerItemProxy */ = {
+            isa = PBXContainerItemProxy;
+            containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+            proxyType = 1;
+            remoteGlobalIDString = A524AB4F4A3AE09827ADB059882D7895;
+            remoteInfo = PixelTest;
+        };
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -129,40 +129,40 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1448CA0D5381F116381DAF1824C5B759 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				918EB77F9DA6492136EB59763E1FB37D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2805BFD8D2256AE3E0B6C36743173849 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				131F9DBED23606EAF5C9BEDE359DC4FC /* Foundation.framework in Frameworks */,
-				94C9DCF233AA6409E1151346D174A55F /* UIKit.framework in Frameworks */,
-				8751A87015ED1B91412E46E8CB8A2371 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58C14444D5EBC8D953CD5F0DC7A74EBE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12DE102BED85A8B4B4A9C831BEEA7E5F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1A3387F86B7EC01E8B246B8C102976F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9807F47AC5DCA8E21E1681183519B2F6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        1448CA0D5381F116381DAF1824C5B759 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                918EB77F9DA6492136EB59763E1FB37D /* Foundation.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        2805BFD8D2256AE3E0B6C36743173849 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                131F9DBED23606EAF5C9BEDE359DC4FC /* Foundation.framework in Frameworks */,
+                94C9DCF233AA6409E1151346D174A55F /* UIKit.framework in Frameworks */,
+                8751A87015ED1B91412E46E8CB8A2371 /* XCTest.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        58C14444D5EBC8D953CD5F0DC7A74EBE /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                12DE102BED85A8B4B4A9C831BEEA7E5F /* Foundation.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        C1A3387F86B7EC01E8B246B8C102976F /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                9807F47AC5DCA8E21E1681183519B2F6 /* Foundation.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -368,173 +368,173 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		18318C1B868B79D97F2335313EA55504 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25430EEA43F2D27512CA8D6A890C07A3 /* Pods-PixelTest_Example-PixelTestExampleSnapshotTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		32603A511C4EBF1B7E15370DC4C6E8BD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABCCC942611844D1E7A59893ABBD1B0A /* Pods-PixelTest_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42410427F9E11BAA56CED84E78B47A01 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C399168A69D803F74FF5C8D6E82D50A5 /* PixelTest-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF57E38FB70BAFC6B2DCECE7CCA7CEB4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				655E642B270D89E44B0730AEE21FE0BD /* Pods-PixelTest_Example-PixelTest_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        18318C1B868B79D97F2335313EA55504 /* Headers */ = {
+            isa = PBXHeadersBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                25430EEA43F2D27512CA8D6A890C07A3 /* Pods-PixelTest_Example-PixelTestExampleSnapshotTests-umbrella.h in Headers */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        32603A511C4EBF1B7E15370DC4C6E8BD /* Headers */ = {
+            isa = PBXHeadersBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                ABCCC942611844D1E7A59893ABBD1B0A /* Pods-PixelTest_Example-umbrella.h in Headers */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        42410427F9E11BAA56CED84E78B47A01 /* Headers */ = {
+            isa = PBXHeadersBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                C399168A69D803F74FF5C8D6E82D50A5 /* PixelTest-umbrella.h in Headers */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        AF57E38FB70BAFC6B2DCECE7CCA7CEB4 /* Headers */ = {
+            isa = PBXHeadersBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                655E642B270D89E44B0730AEE21FE0BD /* Pods-PixelTest_Example-PixelTest_Tests-umbrella.h in Headers */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9090A7F4878212F24E13C96165663B96 /* Pods-PixelTest_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F1C37F4315B03AF6FD8952C329EDF412 /* Build configuration list for PBXNativeTarget "Pods-PixelTest_Example" */;
-			buildPhases = (
-				32603A511C4EBF1B7E15370DC4C6E8BD /* Headers */,
-				8E3A4AE57EF4430D7910DBD7DB361EC1 /* Sources */,
-				58C14444D5EBC8D953CD5F0DC7A74EBE /* Frameworks */,
-				31228127740FD84ECE919EAEF95AD46C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-PixelTest_Example";
-			productName = "Pods-PixelTest_Example";
-			productReference = 5D30361E0FA920438F9EB76C8CDDE45E /* Pods_PixelTest_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		95E9AB7A64C6946F5E7D87F4A8BC16B8 /* Pods-PixelTest_Example-PixelTestExampleSnapshotTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 812E0F6A93C40B649D8B5CFACF7E102D /* Build configuration list for PBXNativeTarget "Pods-PixelTest_Example-PixelTestExampleSnapshotTests" */;
-			buildPhases = (
-				18318C1B868B79D97F2335313EA55504 /* Headers */,
-				86F07F3A25B4CC662FA8CE7FD8896B39 /* Sources */,
-				1448CA0D5381F116381DAF1824C5B759 /* Frameworks */,
-				2369927C1783E210D8C807F2CBAB40F6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BD8679835EB5C1E627C293AF23E8E827 /* PBXTargetDependency */,
-			);
-			name = "Pods-PixelTest_Example-PixelTestExampleSnapshotTests";
-			productName = "Pods-PixelTest_Example-PixelTestExampleSnapshotTests";
-			productReference = 6BBEBDAAF68DF4BD0FB35179194B6D90 /* Pods_PixelTest_Example_PixelTestExampleSnapshotTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A524AB4F4A3AE09827ADB059882D7895 /* PixelTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D9F40A1131EC308E021BA7878C3944F0 /* Build configuration list for PBXNativeTarget "PixelTest" */;
-			buildPhases = (
-				42410427F9E11BAA56CED84E78B47A01 /* Headers */,
-				B2D36647FFB7D3CEAF0919CD18898CC2 /* Sources */,
-				2805BFD8D2256AE3E0B6C36743173849 /* Frameworks */,
-				9E639762581D3A1DF092CAF4C3E1351C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PixelTest;
-			productName = PixelTest;
-			productReference = FE294F1663145B8643A131FA6E458EFB /* PixelTest.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B4E3BC5F5CE0BAD88F5ED2868E5902EE /* Pods-PixelTest_Example-PixelTest_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F5FB5CF610AF1B271B61E0226843B25 /* Build configuration list for PBXNativeTarget "Pods-PixelTest_Example-PixelTest_Tests" */;
-			buildPhases = (
-				AF57E38FB70BAFC6B2DCECE7CCA7CEB4 /* Headers */,
-				A075C1010FE94D8D0E709043F9F4E263 /* Sources */,
-				C1A3387F86B7EC01E8B246B8C102976F /* Frameworks */,
-				E80B82EC25B5F42EEF63512DD421913B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ADE642C0673B2E1B159E314872F8AB60 /* PBXTargetDependency */,
-			);
-			name = "Pods-PixelTest_Example-PixelTest_Tests";
-			productName = "Pods-PixelTest_Example-PixelTest_Tests";
-			productReference = 1C6895A0CE918F885E5D80425D2144E2 /* Pods_PixelTest_Example_PixelTest_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
+        9090A7F4878212F24E13C96165663B96 /* Pods-PixelTest_Example */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = F1C37F4315B03AF6FD8952C329EDF412 /* Build configuration list for PBXNativeTarget "Pods-PixelTest_Example" */;
+            buildPhases = (
+                32603A511C4EBF1B7E15370DC4C6E8BD /* Headers */,
+                8E3A4AE57EF4430D7910DBD7DB361EC1 /* Sources */,
+                58C14444D5EBC8D953CD5F0DC7A74EBE /* Frameworks */,
+                31228127740FD84ECE919EAEF95AD46C /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = "Pods-PixelTest_Example";
+            productName = "Pods-PixelTest_Example";
+            productReference = 5D30361E0FA920438F9EB76C8CDDE45E /* Pods_PixelTest_Example.framework */;
+            productType = "com.apple.product-type.framework";
+        };
+        95E9AB7A64C6946F5E7D87F4A8BC16B8 /* Pods-PixelTest_Example-PixelTestExampleSnapshotTests */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = 812E0F6A93C40B649D8B5CFACF7E102D /* Build configuration list for PBXNativeTarget "Pods-PixelTest_Example-PixelTestExampleSnapshotTests" */;
+            buildPhases = (
+                18318C1B868B79D97F2335313EA55504 /* Headers */,
+                86F07F3A25B4CC662FA8CE7FD8896B39 /* Sources */,
+                1448CA0D5381F116381DAF1824C5B759 /* Frameworks */,
+                2369927C1783E210D8C807F2CBAB40F6 /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+                BD8679835EB5C1E627C293AF23E8E827 /* PBXTargetDependency */,
+            );
+            name = "Pods-PixelTest_Example-PixelTestExampleSnapshotTests";
+            productName = "Pods-PixelTest_Example-PixelTestExampleSnapshotTests";
+            productReference = 6BBEBDAAF68DF4BD0FB35179194B6D90 /* Pods_PixelTest_Example_PixelTestExampleSnapshotTests.framework */;
+            productType = "com.apple.product-type.framework";
+        };
+        A524AB4F4A3AE09827ADB059882D7895 /* PixelTest */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = D9F40A1131EC308E021BA7878C3944F0 /* Build configuration list for PBXNativeTarget "PixelTest" */;
+            buildPhases = (
+                42410427F9E11BAA56CED84E78B47A01 /* Headers */,
+                B2D36647FFB7D3CEAF0919CD18898CC2 /* Sources */,
+                2805BFD8D2256AE3E0B6C36743173849 /* Frameworks */,
+                9E639762581D3A1DF092CAF4C3E1351C /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = PixelTest;
+            productName = PixelTest;
+            productReference = FE294F1663145B8643A131FA6E458EFB /* PixelTest.framework */;
+            productType = "com.apple.product-type.framework";
+        };
+        B4E3BC5F5CE0BAD88F5ED2868E5902EE /* Pods-PixelTest_Example-PixelTest_Tests */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = 3F5FB5CF610AF1B271B61E0226843B25 /* Build configuration list for PBXNativeTarget "Pods-PixelTest_Example-PixelTest_Tests" */;
+            buildPhases = (
+                AF57E38FB70BAFC6B2DCECE7CCA7CEB4 /* Headers */,
+                A075C1010FE94D8D0E709043F9F4E263 /* Sources */,
+                C1A3387F86B7EC01E8B246B8C102976F /* Frameworks */,
+                E80B82EC25B5F42EEF63512DD421913B /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+                ADE642C0673B2E1B159E314872F8AB60 /* PBXTargetDependency */,
+            );
+            name = "Pods-PixelTest_Example-PixelTest_Tests";
+            productName = "Pods-PixelTest_Example-PixelTest_Tests";
+            productReference = 1C6895A0CE918F885E5D80425D2144E2 /* Pods_PixelTest_Example_PixelTest_Tests.framework */;
+            productType = "com.apple.product-type.framework";
+        };
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
-			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A5D542FE60D1E643F09A563D1C16F04B /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				A524AB4F4A3AE09827ADB059882D7895 /* PixelTest */,
-				9090A7F4878212F24E13C96165663B96 /* Pods-PixelTest_Example */,
-				B4E3BC5F5CE0BAD88F5ED2868E5902EE /* Pods-PixelTest_Example-PixelTest_Tests */,
-				95E9AB7A64C6946F5E7D87F4A8BC16B8 /* Pods-PixelTest_Example-PixelTestExampleSnapshotTests */,
-			);
-		};
+        D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                LastSwiftUpdateCheck = 0930;
+                LastUpgradeCheck = 0930;
+            };
+            buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+            compatibilityVersion = "Xcode 3.2";
+            developmentRegion = English;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+            );
+            mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+            productRefGroup = A5D542FE60D1E643F09A563D1C16F04B /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                A524AB4F4A3AE09827ADB059882D7895 /* PixelTest */,
+                9090A7F4878212F24E13C96165663B96 /* Pods-PixelTest_Example */,
+                B4E3BC5F5CE0BAD88F5ED2868E5902EE /* Pods-PixelTest_Example-PixelTest_Tests */,
+                95E9AB7A64C6946F5E7D87F4A8BC16B8 /* Pods-PixelTest_Example-PixelTestExampleSnapshotTests */,
+            );
+        };
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2369927C1783E210D8C807F2CBAB40F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		31228127740FD84ECE919EAEF95AD46C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9E639762581D3A1DF092CAF4C3E1351C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E80B82EC25B5F42EEF63512DD421913B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        2369927C1783E210D8C807F2CBAB40F6 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        31228127740FD84ECE919EAEF95AD46C /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        9E639762581D3A1DF092CAF4C3E1351C /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        E80B82EC25B5F42EEF63512DD421913B /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -583,7 +583,7 @@
 				C4EEB2B3930475F927F1165DE8BCA993 /* Scale.swift in Sources */,
 				ED1654791D2DDA80491D80786758E182 /* TestCoordinator.swift in Sources */,
 				B13D668D2216A9B400BF5EBE /* PixelTest.swift in Sources */,
-				B11725CC2237DBD100A5FE58 /* XCTestCase+PixelTest.swift in Sources */,
+				B11725C82237C02D00A5FE58 /* XCTestCase+PixelTest.swift in Sources */,
 				8873AD5BA0350F9FB2DB0E6CCA8F1D0A /* TestCoordinatorType.swift in Sources */,
 				CE2B782726F81480452B729CEF57C9D4 /* UIImage+PixelTest.swift in Sources */,
 				9959616CA60FF3E7BD8CE045E668BA6E /* UIView+PixelTest.swift in Sources */,
@@ -594,479 +594,479 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ADE642C0673B2E1B159E314872F8AB60 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PixelTest;
-			target = A524AB4F4A3AE09827ADB059882D7895 /* PixelTest */;
-			targetProxy = 61BA30D781E8FCB61B6D5FE5D13CC1EA /* PBXContainerItemProxy */;
-		};
-		BD8679835EB5C1E627C293AF23E8E827 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PixelTest;
-			target = A524AB4F4A3AE09827ADB059882D7895 /* PixelTest */;
-			targetProxy = 1B10FA9E8801FE128732A9A4D41776A7 /* PBXContainerItemProxy */;
-		};
+        ADE642C0673B2E1B159E314872F8AB60 /* PBXTargetDependency */ = {
+            isa = PBXTargetDependency;
+            name = PixelTest;
+            target = A524AB4F4A3AE09827ADB059882D7895 /* PixelTest */;
+            targetProxy = 61BA30D781E8FCB61B6D5FE5D13CC1EA /* PBXContainerItemProxy */;
+        };
+        BD8679835EB5C1E627C293AF23E8E827 /* PBXTargetDependency */ = {
+            isa = PBXTargetDependency;
+            name = PixelTest;
+            target = A524AB4F4A3AE09827ADB059882D7895 /* PixelTest */;
+            targetProxy = 1B10FA9E8801FE128732A9A4D41776A7 /* PBXContainerItemProxy */;
+        };
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1807F92513CC910353928949BA729B58 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4305BE6623A1B4CB98EC06AD0D3EB8D /* PixelTest.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PixelTest/PixelTest-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PixelTest/PixelTest-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PixelTest/PixelTest.modulemap";
-				PRODUCT_MODULE_NAME = PixelTest;
-				PRODUCT_NAME = PixelTest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		29EE80489F57D17D4177DC9814909D0A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05E993E7F109E08E862C05065DEBE580 /* Pods-PixelTest_Example-PixelTestExampleSnapshotTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PixelTest_Example-PixelTestExampleSnapshotTests/Pods-PixelTest_Example-PixelTestExampleSnapshotTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PixelTest_Example-PixelTestExampleSnapshotTests/Pods-PixelTest_Example-PixelTestExampleSnapshotTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3C29E52E9F1FC0878678591F327277BE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB8F07D1440155F91077E26B762412CC /* Pods-PixelTest_Example-PixelTest_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PixelTest_Example-PixelTest_Tests/Pods-PixelTest_Example-PixelTest_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PixelTest_Example-PixelTest_Tests/Pods-PixelTest_Example-PixelTest_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4FABDE9A6A175E2BAE18A7A77719E281 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CFC4EB1A3697525FB7694D6F555BBDC /* Pods-PixelTest_Example-PixelTestExampleSnapshotTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PixelTest_Example-PixelTestExampleSnapshotTests/Pods-PixelTest_Example-PixelTestExampleSnapshotTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PixelTest_Example-PixelTestExampleSnapshotTests/Pods-PixelTest_Example-PixelTestExampleSnapshotTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7FC7B8135FDED1560A80CA98EC6F7207 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		8F5E0841FA524D0B23509955E782F76D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4B4A52550652800A53896670AB8AD3C /* Pods-PixelTest_Example-PixelTest_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PixelTest_Example-PixelTest_Tests/Pods-PixelTest_Example-PixelTest_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PixelTest_Example-PixelTest_Tests/Pods-PixelTest_Example-PixelTest_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9924AB909055276FB3093300814E6A67 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A46A67E84F87BC2F65F2D81F24849620 /* Pods-PixelTest_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PixelTest_Example/Pods-PixelTest_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PixelTest_Example/Pods-PixelTest_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AB78059F92B42B236F68401ED4406C89 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FECD552A75982E0D0E81AF248257FFB9 /* Pods-PixelTest_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PixelTest_Example/Pods-PixelTest_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PixelTest_Example/Pods-PixelTest_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B4A339C5C9837FC180FD2D276CBB365A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		D5A29B94134861763DA2B9A0B0CAA1A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4305BE6623A1B4CB98EC06AD0D3EB8D /* PixelTest.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PixelTest/PixelTest-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PixelTest/PixelTest-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PixelTest/PixelTest.modulemap";
-				PRODUCT_MODULE_NAME = PixelTest;
-				PRODUCT_NAME = PixelTest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
+        1807F92513CC910353928949BA729B58 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = B4305BE6623A1B4CB98EC06AD0D3EB8D /* PixelTest.xcconfig */;
+            buildSettings = {
+                ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+                CODE_SIGN_IDENTITY = "";
+                "CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+                "CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+                "CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+                CURRENT_PROJECT_VERSION = 1;
+                DEFINES_MODULE = YES;
+                DYLIB_COMPATIBILITY_VERSION = 1;
+                DYLIB_CURRENT_VERSION = 1;
+                DYLIB_INSTALL_NAME_BASE = "@rpath";
+                GCC_PREFIX_HEADER = "Target Support Files/PixelTest/PixelTest-prefix.pch";
+                INFOPLIST_FILE = "Target Support Files/PixelTest/PixelTest-Info.plist";
+                INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+                IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+                MODULEMAP_FILE = "Target Support Files/PixelTest/PixelTest.modulemap";
+                PRODUCT_MODULE_NAME = PixelTest;
+                PRODUCT_NAME = PixelTest;
+                SDKROOT = iphoneos;
+                SKIP_INSTALL = YES;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+                SWIFT_VERSION = 4.2;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                VERSIONING_SYSTEM = "apple-generic";
+                VERSION_INFO_PREFIX = "";
+            };
+            name = Debug;
+        };
+        29EE80489F57D17D4177DC9814909D0A /* Debug */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = 05E993E7F109E08E862C05065DEBE580 /* Pods-PixelTest_Example-PixelTestExampleSnapshotTests.debug.xcconfig */;
+            buildSettings = {
+                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+                ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+                CLANG_ENABLE_OBJC_WEAK = NO;
+                CODE_SIGN_IDENTITY = "";
+                "CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+                "CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+                "CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+                CURRENT_PROJECT_VERSION = 1;
+                DEFINES_MODULE = YES;
+                DYLIB_COMPATIBILITY_VERSION = 1;
+                DYLIB_CURRENT_VERSION = 1;
+                DYLIB_INSTALL_NAME_BASE = "@rpath";
+                INFOPLIST_FILE = "Target Support Files/Pods-PixelTest_Example-PixelTestExampleSnapshotTests/Pods-PixelTest_Example-PixelTestExampleSnapshotTests-Info.plist";
+                INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+                IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+                MACH_O_TYPE = staticlib;
+                MODULEMAP_FILE = "Target Support Files/Pods-PixelTest_Example-PixelTestExampleSnapshotTests/Pods-PixelTest_Example-PixelTestExampleSnapshotTests.modulemap";
+                OTHER_LDFLAGS = "";
+                OTHER_LIBTOOLFLAGS = "";
+                PODS_ROOT = "$(SRCROOT)";
+                PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+                PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+                SDKROOT = iphoneos;
+                SKIP_INSTALL = YES;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+                TARGETED_DEVICE_FAMILY = "1,2";
+                VERSIONING_SYSTEM = "apple-generic";
+                VERSION_INFO_PREFIX = "";
+            };
+            name = Debug;
+        };
+        3C29E52E9F1FC0878678591F327277BE /* Debug */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = DB8F07D1440155F91077E26B762412CC /* Pods-PixelTest_Example-PixelTest_Tests.debug.xcconfig */;
+            buildSettings = {
+                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+                ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+                CLANG_ENABLE_OBJC_WEAK = NO;
+                CODE_SIGN_IDENTITY = "";
+                "CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+                "CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+                "CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+                CURRENT_PROJECT_VERSION = 1;
+                DEFINES_MODULE = YES;
+                DYLIB_COMPATIBILITY_VERSION = 1;
+                DYLIB_CURRENT_VERSION = 1;
+                DYLIB_INSTALL_NAME_BASE = "@rpath";
+                INFOPLIST_FILE = "Target Support Files/Pods-PixelTest_Example-PixelTest_Tests/Pods-PixelTest_Example-PixelTest_Tests-Info.plist";
+                INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+                IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+                MACH_O_TYPE = staticlib;
+                MODULEMAP_FILE = "Target Support Files/Pods-PixelTest_Example-PixelTest_Tests/Pods-PixelTest_Example-PixelTest_Tests.modulemap";
+                OTHER_LDFLAGS = "";
+                OTHER_LIBTOOLFLAGS = "";
+                PODS_ROOT = "$(SRCROOT)";
+                PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+                PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+                SDKROOT = iphoneos;
+                SKIP_INSTALL = YES;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+                TARGETED_DEVICE_FAMILY = "1,2";
+                VERSIONING_SYSTEM = "apple-generic";
+                VERSION_INFO_PREFIX = "";
+            };
+            name = Debug;
+        };
+        4FABDE9A6A175E2BAE18A7A77719E281 /* Release */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = 8CFC4EB1A3697525FB7694D6F555BBDC /* Pods-PixelTest_Example-PixelTestExampleSnapshotTests.release.xcconfig */;
+            buildSettings = {
+                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+                ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+                CLANG_ENABLE_OBJC_WEAK = NO;
+                CODE_SIGN_IDENTITY = "";
+                "CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+                "CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+                "CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+                CURRENT_PROJECT_VERSION = 1;
+                DEFINES_MODULE = YES;
+                DYLIB_COMPATIBILITY_VERSION = 1;
+                DYLIB_CURRENT_VERSION = 1;
+                DYLIB_INSTALL_NAME_BASE = "@rpath";
+                INFOPLIST_FILE = "Target Support Files/Pods-PixelTest_Example-PixelTestExampleSnapshotTests/Pods-PixelTest_Example-PixelTestExampleSnapshotTests-Info.plist";
+                INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+                IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+                MACH_O_TYPE = staticlib;
+                MODULEMAP_FILE = "Target Support Files/Pods-PixelTest_Example-PixelTestExampleSnapshotTests/Pods-PixelTest_Example-PixelTestExampleSnapshotTests.modulemap";
+                OTHER_LDFLAGS = "";
+                OTHER_LIBTOOLFLAGS = "";
+                PODS_ROOT = "$(SRCROOT)";
+                PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+                PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+                SDKROOT = iphoneos;
+                SKIP_INSTALL = YES;
+                SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+                TARGETED_DEVICE_FAMILY = "1,2";
+                VALIDATE_PRODUCT = YES;
+                VERSIONING_SYSTEM = "apple-generic";
+                VERSION_INFO_PREFIX = "";
+            };
+            name = Release;
+        };
+        7FC7B8135FDED1560A80CA98EC6F7207 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                CODE_SIGNING_ALLOWED = NO;
+                CODE_SIGNING_REQUIRED = NO;
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+                ENABLE_NS_ASSERTIONS = NO;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu11;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "POD_CONFIGURATION_RELEASE=1",
+                    "$(inherited)",
+                );
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+                MTL_ENABLE_DEBUG_INFO = NO;
+                MTL_FAST_MATH = YES;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                STRIP_INSTALLED_PRODUCT = NO;
+                SYMROOT = "${SRCROOT}/../build";
+            };
+            name = Release;
+        };
+        8F5E0841FA524D0B23509955E782F76D /* Release */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = A4B4A52550652800A53896670AB8AD3C /* Pods-PixelTest_Example-PixelTest_Tests.release.xcconfig */;
+            buildSettings = {
+                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+                ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+                CLANG_ENABLE_OBJC_WEAK = NO;
+                CODE_SIGN_IDENTITY = "";
+                "CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+                "CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+                "CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+                CURRENT_PROJECT_VERSION = 1;
+                DEFINES_MODULE = YES;
+                DYLIB_COMPATIBILITY_VERSION = 1;
+                DYLIB_CURRENT_VERSION = 1;
+                DYLIB_INSTALL_NAME_BASE = "@rpath";
+                INFOPLIST_FILE = "Target Support Files/Pods-PixelTest_Example-PixelTest_Tests/Pods-PixelTest_Example-PixelTest_Tests-Info.plist";
+                INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+                IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+                MACH_O_TYPE = staticlib;
+                MODULEMAP_FILE = "Target Support Files/Pods-PixelTest_Example-PixelTest_Tests/Pods-PixelTest_Example-PixelTest_Tests.modulemap";
+                OTHER_LDFLAGS = "";
+                OTHER_LIBTOOLFLAGS = "";
+                PODS_ROOT = "$(SRCROOT)";
+                PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+                PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+                SDKROOT = iphoneos;
+                SKIP_INSTALL = YES;
+                SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+                TARGETED_DEVICE_FAMILY = "1,2";
+                VALIDATE_PRODUCT = YES;
+                VERSIONING_SYSTEM = "apple-generic";
+                VERSION_INFO_PREFIX = "";
+            };
+            name = Release;
+        };
+        9924AB909055276FB3093300814E6A67 /* Release */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = A46A67E84F87BC2F65F2D81F24849620 /* Pods-PixelTest_Example.release.xcconfig */;
+            buildSettings = {
+                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+                ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+                CLANG_ENABLE_OBJC_WEAK = NO;
+                CODE_SIGN_IDENTITY = "";
+                "CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+                "CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+                "CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+                CURRENT_PROJECT_VERSION = 1;
+                DEFINES_MODULE = YES;
+                DYLIB_COMPATIBILITY_VERSION = 1;
+                DYLIB_CURRENT_VERSION = 1;
+                DYLIB_INSTALL_NAME_BASE = "@rpath";
+                INFOPLIST_FILE = "Target Support Files/Pods-PixelTest_Example/Pods-PixelTest_Example-Info.plist";
+                INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+                IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+                MACH_O_TYPE = staticlib;
+                MODULEMAP_FILE = "Target Support Files/Pods-PixelTest_Example/Pods-PixelTest_Example.modulemap";
+                OTHER_LDFLAGS = "";
+                OTHER_LIBTOOLFLAGS = "";
+                PODS_ROOT = "$(SRCROOT)";
+                PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+                PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+                SDKROOT = iphoneos;
+                SKIP_INSTALL = YES;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                VALIDATE_PRODUCT = YES;
+                VERSIONING_SYSTEM = "apple-generic";
+                VERSION_INFO_PREFIX = "";
+            };
+            name = Release;
+        };
+        AB78059F92B42B236F68401ED4406C89 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = FECD552A75982E0D0E81AF248257FFB9 /* Pods-PixelTest_Example.debug.xcconfig */;
+            buildSettings = {
+                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+                ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+                CLANG_ENABLE_OBJC_WEAK = NO;
+                CODE_SIGN_IDENTITY = "";
+                "CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+                "CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+                "CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+                CURRENT_PROJECT_VERSION = 1;
+                DEFINES_MODULE = YES;
+                DYLIB_COMPATIBILITY_VERSION = 1;
+                DYLIB_CURRENT_VERSION = 1;
+                DYLIB_INSTALL_NAME_BASE = "@rpath";
+                INFOPLIST_FILE = "Target Support Files/Pods-PixelTest_Example/Pods-PixelTest_Example-Info.plist";
+                INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+                IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+                MACH_O_TYPE = staticlib;
+                MODULEMAP_FILE = "Target Support Files/Pods-PixelTest_Example/Pods-PixelTest_Example.modulemap";
+                OTHER_LDFLAGS = "";
+                OTHER_LIBTOOLFLAGS = "";
+                PODS_ROOT = "$(SRCROOT)";
+                PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+                PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+                SDKROOT = iphoneos;
+                SKIP_INSTALL = YES;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                VERSIONING_SYSTEM = "apple-generic";
+                VERSION_INFO_PREFIX = "";
+            };
+            name = Debug;
+        };
+        B4A339C5C9837FC180FD2D276CBB365A /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                CODE_SIGNING_ALLOWED = NO;
+                CODE_SIGNING_REQUIRED = NO;
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                ENABLE_TESTABILITY = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu11;
+                GCC_DYNAMIC_NO_PIC = NO;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "POD_CONFIGURATION_DEBUG=1",
+                    "DEBUG=1",
+                    "$(inherited)",
+                );
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+                MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+                MTL_FAST_MATH = YES;
+                ONLY_ACTIVE_ARCH = YES;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                STRIP_INSTALLED_PRODUCT = NO;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+                SYMROOT = "${SRCROOT}/../build";
+            };
+            name = Debug;
+        };
+        D5A29B94134861763DA2B9A0B0CAA1A9 /* Release */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = B4305BE6623A1B4CB98EC06AD0D3EB8D /* PixelTest.xcconfig */;
+            buildSettings = {
+                ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+                CODE_SIGN_IDENTITY = "";
+                "CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+                "CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+                "CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+                CURRENT_PROJECT_VERSION = 1;
+                DEFINES_MODULE = YES;
+                DYLIB_COMPATIBILITY_VERSION = 1;
+                DYLIB_CURRENT_VERSION = 1;
+                DYLIB_INSTALL_NAME_BASE = "@rpath";
+                GCC_PREFIX_HEADER = "Target Support Files/PixelTest/PixelTest-prefix.pch";
+                INFOPLIST_FILE = "Target Support Files/PixelTest/PixelTest-Info.plist";
+                INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+                IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+                MODULEMAP_FILE = "Target Support Files/PixelTest/PixelTest.modulemap";
+                PRODUCT_MODULE_NAME = PixelTest;
+                PRODUCT_NAME = PixelTest;
+                SDKROOT = iphoneos;
+                SKIP_INSTALL = YES;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+                SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+                SWIFT_VERSION = 4.2;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                VALIDATE_PRODUCT = YES;
+                VERSIONING_SYSTEM = "apple-generic";
+                VERSION_INFO_PREFIX = "";
+            };
+            name = Release;
+        };
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B4A339C5C9837FC180FD2D276CBB365A /* Debug */,
-				7FC7B8135FDED1560A80CA98EC6F7207 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3F5FB5CF610AF1B271B61E0226843B25 /* Build configuration list for PBXNativeTarget "Pods-PixelTest_Example-PixelTest_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3C29E52E9F1FC0878678591F327277BE /* Debug */,
-				8F5E0841FA524D0B23509955E782F76D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		812E0F6A93C40B649D8B5CFACF7E102D /* Build configuration list for PBXNativeTarget "Pods-PixelTest_Example-PixelTestExampleSnapshotTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				29EE80489F57D17D4177DC9814909D0A /* Debug */,
-				4FABDE9A6A175E2BAE18A7A77719E281 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D9F40A1131EC308E021BA7878C3944F0 /* Build configuration list for PBXNativeTarget "PixelTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1807F92513CC910353928949BA729B58 /* Debug */,
-				D5A29B94134861763DA2B9A0B0CAA1A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F1C37F4315B03AF6FD8952C329EDF412 /* Build configuration list for PBXNativeTarget "Pods-PixelTest_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB78059F92B42B236F68401ED4406C89 /* Debug */,
-				9924AB909055276FB3093300814E6A67 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
+        2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                B4A339C5C9837FC180FD2D276CBB365A /* Debug */,
+                7FC7B8135FDED1560A80CA98EC6F7207 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        3F5FB5CF610AF1B271B61E0226843B25 /* Build configuration list for PBXNativeTarget "Pods-PixelTest_Example-PixelTest_Tests" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                3C29E52E9F1FC0878678591F327277BE /* Debug */,
+                8F5E0841FA524D0B23509955E782F76D /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        812E0F6A93C40B649D8B5CFACF7E102D /* Build configuration list for PBXNativeTarget "Pods-PixelTest_Example-PixelTestExampleSnapshotTests" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                29EE80489F57D17D4177DC9814909D0A /* Debug */,
+                4FABDE9A6A175E2BAE18A7A77719E281 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        D9F40A1131EC308E021BA7878C3944F0 /* Build configuration list for PBXNativeTarget "PixelTest" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                1807F92513CC910353928949BA729B58 /* Debug */,
+                D5A29B94134861763DA2B9A0B0CAA1A9 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        F1C37F4315B03AF6FD8952C329EDF412 /* Build configuration list for PBXNativeTarget "Pods-PixelTest_Example" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                AB78059F92B42B236F68401ED4406C89 /* Debug */,
+                9924AB909055276FB3093300814E6A67 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
 /* End XCConfigurationList section */
-	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+    };
+    rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }
