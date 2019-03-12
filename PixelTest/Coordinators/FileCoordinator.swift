@@ -46,7 +46,7 @@ struct FileCoordinator: FileCoordinatorType {
         let parentDirectoryUrl: URL
             
         if let screenshotsDirectory = PixelTest.screenshotsDirectory {
-            parentDirectoryUrl = URL(string: screenshotsDirectory)!
+            parentDirectoryUrl = URL(fileURLWithPath: screenshotsDirectory)
         } else {
             parentDirectoryUrl = fullFileURL.deletingLastPathComponent()
         }
