@@ -25,6 +25,10 @@ open class PixelTest {
     // MARK: - Properties -
     // MARK: Public
     
+    /// The directory to store the screenshots.
+    /// If left as nil, the screenshots are placed in the same directory as the test class.
+    public static var screenshotsDirectory: String? = nil
+    
     /// The name of the HTML file PixelTest auto-generates
     /// You might want to change this to something specific for your project or Fastlane setup, for example.
     public static var failureHTMLFilename: String = "pixeltest_failures"

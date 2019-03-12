@@ -42,15 +42,24 @@ struct FileCoordinator: FileCoordinatorType {
                  layoutStyle: LayoutStyle) -> URL {
         
         let fullFileURL = URL(fileURLWithPath: "\(file)")
+        
+        let parentDirectoryUrl: URL
+            
+        if let screenshotsDirectory = PixelTest.screenshotsDirectory {
+            parentDirectoryUrl = URL(string: screenshotsDirectory)!
+        } else {
+            parentDirectoryUrl = fullFileURL.deletingLastPathComponent()
+        }
+        let innerDirectoryName = fullFileURL.deletingPathExtension().lastPathComponent
+        
         var alphaNumericFunctionName = "\(function)".strippingNonAlphaNumerics
         alphaNumericFunctionName.remove(firstOccurenceOf: "test_")
         alphaNumericFunctionName.remove(firstOccurenceOf: "test")
-        let directoryName = fullFileURL.deletingPathExtension().lastPathComponent
         
-        let url = fullFileURL
-            .deletingLastPathComponent()
+        
+        let url = parentDirectoryUrl
             .appendingPathComponent(".pixeltest")
-            .appendingPathComponent(directoryName)
+            .appendingPathComponent(innerDirectoryName)
             .appendingPathComponent(alphaNumericFunctionName)
             .appendingPathComponent(imageType.rawValue)
         createDirectoryIfNecessary(url)
