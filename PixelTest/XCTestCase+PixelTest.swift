@@ -25,7 +25,7 @@ public extension XCTestCase {
     public func verify(_ view: UIView,
                        layoutStyle: LayoutStyle,
                        scale: Scale = .native,
-                       mode: Mode,
+                       mode: Mode = .test,
                        filenameSuffix: String = "",
                        file: StaticString = #file,
                        function: StaticString = #function,
@@ -66,7 +66,7 @@ public extension XCTestCase {
     ///   - mode: Record the reference image or test against an existing one.
     public func verify(_ app: XCUIApplication,
                        clipFromTop: Int = 22,
-                       mode: Mode,
+                       mode: Mode = .test,
                        filenameSuffix: String = "",
                        file: StaticString = #file,
                        function: StaticString = #function,
