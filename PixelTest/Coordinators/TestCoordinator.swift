@@ -37,6 +37,7 @@ struct TestCoordinator: TestCoordinatorType {
     func record(_ imageable: Imageable,
                 layoutStyle: LayoutStyle,
                 scale: Scale,
+                relativeDirectory: String,
                 filenameSuffix: String,
                 function: StaticString,
                 file: StaticString) -> Result<UIImage, String> {
@@ -52,6 +53,7 @@ struct TestCoordinator: TestCoordinatorType {
                                               file: file,
                                               filenameSuffix: filenameSuffix,
                                               scale: scale,
+                                              relativeDirectory: relativeDirectory,
                                               imageType: .reference,
                                               layoutStyle: layoutStyle)
             try fileCoordinator.write(data, to: url)
@@ -73,6 +75,7 @@ struct TestCoordinator: TestCoordinatorType {
     func test(_ imageable: Imageable,
               layoutStyle: LayoutStyle,
               scale: Scale,
+              relativeDirectory: String,
               filenameSuffix: String,
               function: StaticString,
               file: StaticString) -> Result<UIImage, (oracle: UIImage?, test: UIImage?, message: String)> {
@@ -84,6 +87,7 @@ struct TestCoordinator: TestCoordinatorType {
                                           file: file,
                                           filenameSuffix: filenameSuffix,
                                           scale: scale,
+                                          relativeDirectory: relativeDirectory,
                                           imageType: .reference,
                                           layoutStyle: layoutStyle)
         guard let data = try? fileCoordinator.data(at: url) else {

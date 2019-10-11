@@ -22,19 +22,21 @@ public extension XCTestCase {
     ///   - layoutStyle: The layout style to verify the view with.
     ///   - scale: The scale to record/test the snapshot with.
     ///   - mode: Record the reference image or test against an existing one.
-    public func verify(_ view: UIView,
-                       layoutStyle: LayoutStyle,
-                       scale: Scale = .native,
-                       mode: Mode = .test,
-                       filenameSuffix: String = "",
-                       file: StaticString = #file,
-                       function: StaticString = #function,
-                       line: UInt = #line) {
+    func verify(_ view: UIView,
+                layoutStyle: LayoutStyle,
+                scale: Scale = .native,
+                mode: Mode = .test,
+                relativeDirectory: String? = nil,
+                filenameSuffix: String = "",
+                file: StaticString = #file,
+                function: StaticString = #function,
+                line: UInt = #line) {
         
         let result = PixelTest.verify(view,
                                       layoutStyle: layoutStyle,
                                       scale: scale,
                                       mode: mode,
+                                      relativeDirectory: relativeDirectory,
                                       filenameSuffix: filenameSuffix,
                                       file: file,
                                       function: function,
@@ -64,13 +66,14 @@ public extension XCTestCase {
     ///   - app: The application to verify.
     ///   - clipFromTop: Height to clip from top. This is used to remove the status bar, which has dynamic elements such as the clock.
     ///   - mode: Record the reference image or test against an existing one.
-    public func verify(_ app: XCUIApplication,
-                       clipFromTop: Int = 22,
-                       mode: Mode = .test,
-                       filenameSuffix: String = "",
-                       file: StaticString = #file,
-                       function: StaticString = #function,
-                       line: UInt = #line) {
+    func verify(_ app: XCUIApplication,
+                clipFromTop: Int = 22,
+                mode: Mode = .test,
+                relativeDirectory: String? = nil,
+                filenameSuffix: String = "",
+                file: StaticString = #file,
+                function: StaticString = #function,
+                line: UInt = #line) {
         
         guard let screenshot = app.screenshot().image.clip(fromTop: clipFromTop) else {
             print("PixelTest: Could not capture screenshot")
@@ -80,6 +83,7 @@ public extension XCTestCase {
         let result = PixelTest.verify(screenshot,
                                       layoutStyle: .dynamicWidthHeight,
                                       mode: mode,
+                                      relativeDirectory: relativeDirectory,
                                       filenameSuffix: filenameSuffix,
                                       file: file,
                                       function: function,

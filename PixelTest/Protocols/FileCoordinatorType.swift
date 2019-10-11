@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol FileCoordinatorType {
     
@@ -13,6 +14,7 @@ protocol FileCoordinatorType {
                  file: StaticString,
                  filenameSuffix: String,
                  scale: Scale,
+                 relativeDirectory: String,
                  imageType: ImageType,
                  layoutStyle: LayoutStyle) -> URL
     
@@ -20,6 +22,7 @@ protocol FileCoordinatorType {
                      file: StaticString,
                      filenameSuffix: String,
                      scale: Scale,
+                     relativeDirectory: String,
                      imageType: ImageType,
                      layoutStyle: LayoutStyle) -> Bool
     
@@ -33,12 +36,14 @@ protocol FileCoordinatorType {
                         file: StaticString,
                         filenameSuffix: String,
                         scale: Scale,
+                        relativeDirectory: String,
                         layoutStyle: LayoutStyle)
     
     func removeDiffAndFailureImages(function: StaticString,
                                     file: StaticString,
                                     filenameSuffix: String,
                                     scale: Scale,
+                                    relativeDirectory: String,
                                     layoutStyle: LayoutStyle)
     
 }

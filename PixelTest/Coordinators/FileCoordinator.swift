@@ -38,6 +38,7 @@ struct FileCoordinator: FileCoordinatorType {
                  file: StaticString,
                  filenameSuffix: String,
                  scale: Scale,
+                 relativeDirectory: String,
                  imageType: ImageType,
                  layoutStyle: LayoutStyle) -> URL {
         
@@ -57,11 +58,17 @@ struct FileCoordinator: FileCoordinatorType {
         alphaNumericFunctionName.remove(firstOccurenceOf: "test")
         
         
-        let url = parentDirectoryUrl
+        var url = parentDirectoryUrl
             .appendingPathComponent(".pixeltest")
             .appendingPathComponent(innerDirectoryName)
             .appendingPathComponent(alphaNumericFunctionName)
-            .appendingPathComponent(imageType.rawValue)
+        
+        if !relativeDirectory.isEmpty {
+            url = url.appendingPathComponent(relativeDirectory)
+        }
+        
+        url = url.appendingPathComponent(imageType.rawValue)
+        
         createDirectoryIfNecessary(url)
         
         return url.appendingPathComponent("\(layoutStyle.fileValue)@\(scale.explicitOrScreenNativeValue)x_\(filenameSuffix).png") // TODO: Use native name?
@@ -71,6 +78,7 @@ struct FileCoordinator: FileCoordinatorType {
                      file: StaticString,
                      filenameSuffix: String,
                      scale: Scale,
+                     relativeDirectory: String,
                      imageType: ImageType,
                      layoutStyle: LayoutStyle) -> Bool {
         
@@ -78,6 +86,7 @@ struct FileCoordinator: FileCoordinatorType {
                           file: file,
                           filenameSuffix: filenameSuffix,
                           scale: scale,
+                          relativeDirectory: relativeDirectory,
                           imageType: imageType,
                           layoutStyle: layoutStyle)
         return fileManager.fileExists(atPath: url.relativePath)
@@ -114,12 +123,14 @@ struct FileCoordinator: FileCoordinatorType {
                         file: StaticString,
                         filenameSuffix: String,
                         scale: Scale,
+                        relativeDirectory: String,
                         layoutStyle: LayoutStyle) {
         
         let diffUrl = fileURL(for: function,
                               file: file,
                               filenameSuffix: filenameSuffix,
                               scale: scale,
+                              relativeDirectory: relativeDirectory,
                               imageType: .diff,
                               layoutStyle: layoutStyle)
         
@@ -131,6 +142,7 @@ struct FileCoordinator: FileCoordinatorType {
                           file: file,
                           filenameSuffix: filenameSuffix,
                           scale: scale,
+                          relativeDirectory: relativeDirectory,
                           imageType: .failure,
                           layoutStyle: layoutStyle)
         
@@ -149,12 +161,14 @@ struct FileCoordinator: FileCoordinatorType {
                                     file: StaticString,
                                     filenameSuffix: String,
                                     scale: Scale,
+                                    relativeDirectory: String,
                                     layoutStyle: LayoutStyle) {
         
         let diffURL = fileURL(for: function,
                               file: file,
                               filenameSuffix: filenameSuffix,
                               scale: scale,
+                              relativeDirectory: relativeDirectory,
                               imageType: .diff,
                               layoutStyle: layoutStyle)
         
@@ -164,6 +178,7 @@ struct FileCoordinator: FileCoordinatorType {
                                  file: file,
                                  filenameSuffix: filenameSuffix,
                                  scale: scale,
+                                 relativeDirectory: relativeDirectory,
                                  imageType: .failure,
                                  layoutStyle: layoutStyle)
         

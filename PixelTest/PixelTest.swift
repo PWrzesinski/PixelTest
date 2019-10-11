@@ -64,6 +64,7 @@ open class PixelTest {
                               layoutStyle: LayoutStyle,
                               scale: Scale = .native,
                               mode: Mode = .test,
+                              relativeDirectory: String? = nil,
                               filenameSuffix: String = "",
                               file: StaticString = #file,
                               function: StaticString = #function,
@@ -85,6 +86,7 @@ open class PixelTest {
         case .record:
             return record(imageable,
                           scale: scale,
+                          relativeDirectory: relativeDirectory ?? "",
                           filenameSuffix: filenameSuffix,
                           file: file, 
                           function: function,
@@ -95,10 +97,12 @@ open class PixelTest {
                                            file: file,
                                            filenameSuffix: filenameSuffix,
                                            scale: scale,
+                                           relativeDirectory: relativeDirectory ?? "",
                                            imageType: .reference,
                                            layoutStyle: layoutStyle) {
                 return test(imageable,
                             scale: scale,
+                            relativeDirectory: relativeDirectory ?? "",
                             filenameSuffix: filenameSuffix,
                             file: file,
                             function: function,
@@ -107,6 +111,7 @@ open class PixelTest {
             } else {
                 return record(imageable,
                               scale: scale,
+                              relativeDirectory: relativeDirectory ?? "",
                               filenameSuffix: filenameSuffix,
                               file: file,
                               function: function,
@@ -124,6 +129,7 @@ extension PixelTest {
     
     private static func record(_ imageable: Imageable,
                                scale: Scale,
+                               relativeDirectory: String,
                                filenameSuffix: String,
                                file: StaticString,
                                function: StaticString,
@@ -133,6 +139,7 @@ extension PixelTest {
         let result = testCoordinator.record(imageable,
                                             layoutStyle: layoutStyle,
                                             scale: scale,
+                                            relativeDirectory: relativeDirectory,
                                             filenameSuffix: filenameSuffix,
                                             function: function,
                                             file: file)
@@ -148,6 +155,7 @@ extension PixelTest {
     
     private static func test(_ imageable: Imageable,
                              scale: Scale,
+                             relativeDirectory: String,
                              filenameSuffix: String,
                              file: StaticString,
                              function: StaticString,
@@ -157,6 +165,7 @@ extension PixelTest {
         let result = testCoordinator.test(imageable,
                                           layoutStyle: layoutStyle,
                                           scale: scale,
+                                          relativeDirectory: relativeDirectory,
                                           filenameSuffix: filenameSuffix,
                                           function: function,
                                           file: file)
@@ -167,6 +176,7 @@ extension PixelTest {
                                                        file: file,
                                                        filenameSuffix: filenameSuffix,
                                                        scale: scale,
+                                                       relativeDirectory: relativeDirectory,
                                                        layoutStyle: layoutStyle)
             return PixelTestResult(original: nil, current: image, diff: nil)
             
@@ -178,6 +188,7 @@ extension PixelTest {
                                           file: file,
                                           filenameSuffix: filenameSuffix,
                                           scale: scale,
+                                          relativeDirectory: relativeDirectory,
                                           layoutStyle: layoutStyle)
             }
             XCTFail(failed.message, file: file, line: line)
@@ -193,6 +204,7 @@ extension PixelTest {
                                                   file: StaticString,
                                                   filenameSuffix: String,
                                                   scale: Scale,
+                                                  relativeDirectory: String,
                                                   layoutStyle: LayoutStyle) {
         
         guard let diffImage = failedImage.diff(with: recordedImage) else { return }
@@ -202,6 +214,7 @@ extension PixelTest {
                                        file: file,
                                        filenameSuffix: filenameSuffix,
                                        scale: scale,
+                                       relativeDirectory: relativeDirectory,
                                        layoutStyle: layoutStyle)
     }
     
